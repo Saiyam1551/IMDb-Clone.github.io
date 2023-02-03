@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <!-- Using external css file -->
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <main>
+        <header>
+            <h2 id="logo">MovieCorner</h2>
+            <p><a href="./favourite.html">Favourite</a></p>
+        </header>
+        <section id="container">
+            <div id="search-container">
+                <form id="form-control">
+                    <input type="text" id="search-input" placeholder="Enter movie Title , Name..." />
+                    <input type="submit" value="search">
+                </form>
+            </div>
+        </section>
+        <section id="movie-container">
+            <div id="search-movie-container">
+              <h3>Serached Movies</h3>
+              <ul id="search-movie-list"></ul>
+            </div>
+            <div id="movie-wrapper"></div>
+        </section>
+    </main>
+     <!-- Using external javascript file  -->
+     <script src="./index.js"></script>
+</body>
+</html>
